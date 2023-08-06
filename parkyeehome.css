@@ -1,0 +1,511 @@
+:root {
+    --dark-color: #222831;
+    --green-color: #39B90C;
+    --darkbalck-color: #151A23;
+
+
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 20;
+    font-family: "Barlow", "poppins";
+}
+
+.wrapper {
+    width: 1752px;
+    height: 1078px;
+    left: -68px;
+    border: 164.96630859375px;
+
+}
+
+.header {
+    width: 1868.0462646484375px;
+    height: 1195px;
+    left: -165px;
+}
+
+.nav {
+    width: 1344px;
+    height: 75.982px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 85px;
+    position: fixed;
+    z-index: 100;
+    transition: all 500ms ease;
+}
+
+.button {
+    width: 82.32px;
+    height: 41.16px;
+    flex-shrink: 0;
+    border-radius: 11.76px;
+    border: 1.47px solid #39B90C;
+    background: #39B90C;
+}
+
+.nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.nav ul li a {
+    padding: 15px;
+}
+
+nav ul li a {
+    color: #000;
+    font-family: Barlow;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+    text-decoration: none;
+    margin: 0%;
+}
+/* end of nav baar*/
+
+.hero-section {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.hero-section .left h1 {
+    color: #0D0D0D;
+    font-family: Barlow;
+    font-size: 108px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 103%;
+    /* 142.651px */
+    text-transform: capitalize;
+}
+
+.hero-section h3 {
+    color: #0D0D0D;
+    font-family: Barlow;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 103%;
+    /* 55.62px */
+    text-transform: capitalize;
+}
+
+.hero-section h3 span {
+    color: #37B20C;
+    font-family: Barlow;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 103%;
+    text-transform: capitalize;
+}
+.left p{
+    width: 585px;
+    height: 152px;
+    flex-shrink: 0;
+    color: #0D0D0D;
+font-family: Barlow;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 103%; /* 14.42px */
+text-transform: capitalize;
+
+} 
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 546px;
+    height: 82px;
+    flex-shrink: 0;
+    border-radius: 49px;
+    background: #FFF;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.search-bar input {
+    width: 465px;
+    height: 54px;
+    flex-shrink: 0;
+    border: none
+}
+
+
+.search-bar img {
+    width: 37.84px;
+    height: 37.84px;
+    flex-shrink: 0;
+}
+.search-bar input ::placeholder{
+    width: 465px;
+height: 54px;
+flex-shrink: 0;
+color: #868585;
+font-family: Barlow;
+font-size: 22px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.hero-section :right{
+    width: 993px;
+height: 879px;
+flex-shrink: 0;
+z-index: -400;
+align-self: flex-end;
+vertical-align: middle;
+}
+.position-relative {
+    position: relative!important;
+}
+.overflow-hidden {
+    overflow: hidden!important;
+}
+* {
+    outline: none !important;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+div {
+    display: block;
+}
+/*end of hero section*/
+.wrapperr {
+    background-attachment: fixed;
+    border-radius: 22px;
+    background: #272A26;
+    display: flex;
+    margin-left: 10;
+    margin-right: auto ;
+    align-items:end;
+    justify-content:space-around;
+    
+}
+.section-aboutus{
+    display: flex;
+}
+.left1 {
+    color: #FFF;
+    font-family: Barlow;
+    font-size: 49px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 103%; /* 50.47px */
+    text-transform: capitalize;
+    
+    padding-left: 75;
+    padding-right: 943;
+}
+.left1 p {
+    width: 578px;
+    height: 112px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Barlow;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 103%; /* 14.42px */
+    text-transform: capitalize;
+}
+.right1{
+ display: flex;
+ width: 345px;
+height: 345px;
+flex-shrink: 0;
+}
+/*about us sec done*/
+.meet-our-founder{
+    width: 1670px;
+    height: 800px;
+    background: #F4F4F4;
+    border-radius: 22px;
+    display: flex;
+    background-blend-mode: lighten;
+    margin-top: 300px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.founder-intro-card h4{
+    color: #3bf94b;
+font-family: Barlow;
+font-size: 20.34px;
+font-style: normal;
+font-weight: 600;
+line-height: 10%; /* 43.611px */
+text-transform: capitalize;
+
+}
+.left2 p{
+    width: 384.591px;
+height: 105.851px;
+flex-shrink: 0;
+color: #000;
+font-family: "Barlow",serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 300;
+line-height: 103%; /* 13.325px */
+text-transform: capitalize;
+margin-bottom: 30;
+
+}
+.right2{
+    width: 448.144px;
+    margin-top: 1px;
+   align-items:center;
+   
+}
+.right2 h1{
+    font-family:"Barlow" ,sans-serif ;
+    font-size: 50px;
+    color:chartreuse;
+}
+
+.team{
+    width: 131.97967529296875px;
+    height: 178.0800018310547px;
+    top: 2500px;
+    left: 1140.919921875px;
+     border-radius: 12.31999683380127px;
+     display: flex;
+     align-items: center;
+     column-gap: 80px;
+
+}
+.Ceo{
+    width: 131.98px;
+    height: 100px;
+    flex-shrink: 0;
+    border-radius: 12.32px;
+    background: #242930;
+}
+.cto{
+    width: 131.98px;
+    height: 250px;
+    flex-shrink: 0;
+    border-radius: 12.32px;
+    background: #242930;
+}
+.Ceo h2{
+    color: #FFF;
+font-family: Barlow;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 103%; /* 12.69px */
+text-transform: capitalize;
+text-align: center;
+}
+.Ceo h3{
+    color: #FFF;
+    font-family: Barlow;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 103%; /* 12.69px */
+    text-transform: capitalize;
+    text-align: center;
+}
+.cto h2{
+    color: #FFF;
+font-family: Barlow;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: 103%; /* 12.69px */
+text-transform: capitalize;
+text-align: center;
+
+}
+.cto h3{
+    color: #FFF;
+font-family: Barlow;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: 103%; /* 12.69px */
+text-transform: capitalize;
+text-align: center;
+}
+section{
+    margin-top: 300;
+}
+.right2 h2{
+color: #000;
+font-family: Barlow;
+font-size: 42.34px;
+font-style: normal;
+font-weight: 600;
+line-height: 103%; /* 43.611px */
+text-transform: capitalize;
+}
+.right2 p{
+    width: 384.591px;
+height: 105.851px;
+flex-shrink: 0;
+color: #000;
+font-family: Barlow;
+font-size: 20px;
+font-style: normal;
+font-weight: 300;
+line-height: 103%; /* 13.325px */
+text-transform: capitalize;
+}
+.intro{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
+.founder-intro-card{
+    width: 442px;
+    height: 220px;
+    background: #FFF;
+    box-shadow: 0px 9px 36px rgba(0, 0, 0, 0.25);
+    border-radius: 24px;
+    margin-bottom: 50px;
+    position: relative;
+}
+.founder-intro-card::before{
+    content: "";
+    width: 28px;
+    position: absolute;
+    height: 40px;
+    top: -40px;
+    left :60px;
+    background-color: #37B20C;
+    border-radius: 24px 24px 0 0;
+
+
+}
+
+
+
+.contain{
+   font-family: "Raleway", sans-serif;
+   font-weight: 900; 
+   font-size: 18px;
+   line-height: 150%;
+   color: #FFF;
+   border-radius: 24px;
+   padding: 24px 32px;
+   background-color: #39B90C;
+
+
+}
+.info{
+    color: #FFF;
+font-family: "Barlow",sans-serif;
+font-size: 12.32px;
+font-style: normal;
+font-weight: 600;
+line-height: 103%; /* 12.69px */
+text-transform: capitalize;
+padding: 24px 32px;
+margin-top: 0px;
+}
+.founder-intro-card img{
+    height: 120px;
+    width: 120px;
+    position: absolute;
+    right: 32px;
+    bottom: 10px;
+    
+}
+.founder-intro-card :last-child{
+    transform: translateX(20px);
+}
+/*teams end*/
+/*get a app*/
+.app-section{
+    text-align: center;
+    font-family: "Barlow";
+    font-size: 40px;
+}
+.app-section h2{
+    text-shadow: #222831;
+    color: #3bf94b;
+}
+.app-section p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+.app-section .app-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 24px;
+}
+.app-btn{
+    padding: 20px 30px;
+    background-color: #3bf94b;
+    border-radius: 40px;
+    color: black;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-family: "Barlow", sans-serif ;
+    min-width: 310px;
+}
+.app-btn span {
+    font-family: "Barlow";
+    font-size: 22px;
+}
+footer{
+    width: 1670px;
+    height: 348px;
+    flex-shrink: 0;
+    border-radius: 22px;
+    background: #272B26;
+    align-items: center;
+    padding: 40px 40px  10px 50px;
+    margin-top: 50px;
+    color: #F4F4F4;
+}
+.links h3{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+footer .All-info{
+    display: flex;
+    gap: 1050px;
+    padding: 0px 50px;
+}
+footer .links{
+    display: flex;
+    gap: 1050px;
+    padding: 0px 50px;
+}
+.home-button{
+    width: 43px;
+height: 42px;
+flex-shrink: 0;
+padding-left: 121px;
+padding-top: 70px;
+}
+.s-media{
+gap : 20x;
+}
